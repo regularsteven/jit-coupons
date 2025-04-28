@@ -13,12 +13,12 @@ class JIT_Coupons_Admin
     }
 
     /**
-     * Add a submenu under "WooCommerce".
+     * Add a submenu under "Marketing".
      */
     public function add_submenu_page()
     {
         add_submenu_page(
-            'woocommerce',
+            'woocommerce-marketing', // Change parent menu to "Marketing"
             'JIT Coupons',
             'JIT Coupons',
             'manage_woocommerce',
